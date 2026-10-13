@@ -49,3 +49,8 @@ print()  # Blank line
 print("My Skills:\nPython\nJava\nSQL")
 
 print()  
+
+# Problem 5
+print("PYTHON CODING")
+print("Learn", "Code", "Repeat!", sep=" | ")
+print("Let's become a Developer.")
