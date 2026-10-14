@@ -16,8 +16,6 @@ print(type(age))
 print(type(salary))
 print(type(is_developer))
 
-# Developer Profile
-
 name = "DEF"
 age = 22
 experience = 1.5
@@ -34,3 +32,10 @@ print("Name type:", type(name))
 print("Age type:", type(age))
 print("Experience type:", type(experience))
 print("Learning type:", type(is_learning_python))
+
+languages = "Java Programming Language"
+print(type(languages))
+print(languages)
+
+
+
