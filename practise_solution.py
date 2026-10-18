@@ -75,9 +75,7 @@ print(f"Height: {brother_height}")
 print(f"Age: {brother_age}")
 
 
-
-
-# Assignment 3: Practice with Brother;s Information
+# Assignment 1: Practice with Brother's Information
 
 ano_brother_name = "Muhammad Maaz Khan"
 ano_brother_age = 23
@@ -108,4 +106,5 @@ print(type(is_family_member))
 
 # Boolean
 print(f"Family member: {is_family_member}")
+
 
