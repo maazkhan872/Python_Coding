@@ -41,3 +41,11 @@ middle_name = input("Enter your Middle name:")
 last_name = input("Enter your Last Name:")
 
 print(f"My first Name is {first_name} and my Middle Name is {middle_name} and my Last Name is {last_name}")
+
+print()
+
+# Practise problem
+variable_1 = int(input("Enter 1st number:"))
+variable_2 = int(input("Enter 2nd number:"))
+variable_3 = variable_1 + variable_2
+print("The sum of two number is",variable_3)
