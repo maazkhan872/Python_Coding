@@ -44,8 +44,14 @@ print(f"My first Name is {first_name} and my Middle Name is {middle_name} and my
 
 print()
 
-# Practise problem
+# Practise problem Add Numbers
 variable_1 = int(input("Enter 1st number:"))
 variable_2 = int(input("Enter 2nd number:"))
 variable_3 = variable_1 + variable_2
+print("The sum of two number is",variable_3)
+
+#Practise problem Sub numbers
+var_1 = int(input("Enter 1st number:"))
+var_2 = int(input("Enter 2nd number:"))
+var_3 = variable_1 - variable_2
 print("The sum of two number is",variable_3)
