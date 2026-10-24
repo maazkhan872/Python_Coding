@@ -50,8 +50,14 @@ variable_2 = int(input("Enter 2nd number:"))
 variable_3 = variable_1 + variable_2
 print("The sum of two number is",variable_3)
 
-#Practise problem Sub numbers
+# Practise problem Sub numbers
 var_1 = int(input("Enter 1st number:"))
 var_2 = int(input("Enter 2nd number:"))
 var_3 = variable_1 - variable_2
+print("The sum of two number is",variable_3)
+
+# Practise problem multiplication numbers
+v_1 = int(input("Enter 1st number:"))
+v_2 = int(input("Enter 2nd number:"))
+v_3 = variable_1 * variable_2
 print("The sum of two number is",variable_3)
