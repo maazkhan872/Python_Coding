@@ -16,3 +16,12 @@ elif b > a:
     print("Largest =", b)
 else:
     print("Both numbers are equal")
+
+
+# Calculate the area of a rectangle
+length = float(input("Enter length: "))
+width = float(input("Enter width: "))
+
+area = length * width
+
+print("Area =", area)
