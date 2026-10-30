@@ -25,3 +25,23 @@ width = float(input("Enter width: "))
 area = length * width
 
 print("Area =", area)
+
+# Age Calculator
+name = input("Enter your name: ")
+birth_year = int(input("Enter your birth year: "))
+
+age = 2026 - birth_year
+
+print("Hello", name)
+print("Your age is:", age)
+
+# Shopping Bill 
+item = input("Enter item name: ")
+price = float(input("Enter item price: "))
+quantity = int(input("Enter quantity: "))
+
+total = price * quantity
+
+print("Item:", item)
+print("Quantity:", quantity)
+print("Total Bill:", total)
