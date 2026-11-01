@@ -54,3 +54,36 @@ celsius = float(input("Enter temperature in Celsius: "))
 fahrenheit = (celsius * 9/5) + 32
 
 print("Temperature in Fahrenheit:", fahrenheit)
+
+# Calculate Grade
+print("Student Grade Calculator")
+
+name = input("Enter your name: ")
+marks = float(input("Enter your marks (0-100): "))
+
+if marks < 0 or marks > 100:
+    print("Invalid Marks!")
+
+elif marks >= 90:
+    grade = "A+"
+    print(name, "Your Grade is:", grade)
+
+elif marks >= 80:
+    grade = "A"
+    print(name, "Your Grade is:", grade)
+
+elif marks >= 70:
+    grade = "B"
+    print(name, "Your Grade is:", grade)
+
+elif marks >= 60:
+    grade = "C"
+    print(name, "Your Grade is:", grade)
+
+elif marks >= 50:
+    grade = "D"
+    print(name, "Your Grade is:", grade)
+
+else:
+    print(name, "You are Failed!")
+
