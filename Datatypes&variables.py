@@ -37,5 +37,9 @@ languages = "Java Programming Language"
 print(type(languages))
 print(languages)
 
+variable_1 = 5
+varibale_2 = 7
+variable_3 = variable_1 + variable_2
+print(variable_3)
 
 
