@@ -10,7 +10,7 @@ print("City:", city)
 message = "Welcome to Agentic AI"
 print(message)
 
-# Name ki length
+# Name length
 name = "Ali"
 print("Name:", name)
 print("Total characters:", len(name))
