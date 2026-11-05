@@ -20,3 +20,20 @@ if num % 2 == 0:
     print("Even Number")
 else:
     print("Odd Number")
+
+
+# Grading System
+marks = int(input("Enter a marks:"))
+
+if marks >= 90:
+    print("Got A+ grade")
+elif  marks >= 80:
+    print("Got A grade")
+elif  marks >= 70:
+    print("Got B grade")
+elif  marks >= 60:
+    print("Got C grade")
+elif  marks >= 50:
+    print("Got D grade")
+else:
+    print("You are failed!")
