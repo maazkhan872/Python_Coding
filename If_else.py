@@ -61,3 +61,18 @@ elif num2 > num1:
 
 else:
     print("Both numbers are equal")
+
+
+# Find Greatest of Three Numbers
+var_1 = int(input("Enter 1st number:"))
+var_2 = int(input("Enter 2nd number:"))
+var_3 = int(input("Enter 3rd number:"))
+
+if var_1 >= var_2 and var_1 >= 3:
+    print("Variable 1 is greater")
+elif var_2 >= var_1 and var_2 >= var_3:
+    print("Variable 2 is greater")
+elif var_3 >= var_1 and var_3 >= var_2:
+    print("Variable 3 is geater")
+else:
+    print("Not Possible")
