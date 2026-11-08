@@ -76,3 +76,12 @@ elif var_3 >= var_1 and var_3 >= var_2:
     print("Variable 3 is geater")
 else:
     print("Not Possible")
+
+
+# Divisible By 5 
+number = int(input("Enter a number"))
+
+if number % 5 == 0:
+    print("Number is divisible by 5")
+else:
+    print("Number is not divisible by 5")
