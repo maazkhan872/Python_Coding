@@ -101,3 +101,22 @@ elif selling_price < cost_price:
 
 else:
     print("No Profit No Loss")
+
+
+# Electricity Bill Calculator
+units = int(input("Enter electricity units: "))
+
+if units < 0:
+    print("Invalid units")
+
+elif units <= 100:
+    bill = units * 5
+    print("Total Bill: Rs.", bill)
+
+elif units <= 200:
+    bill = (100 * 5) + ((units - 100) * 8)
+    print("Total Bill: Rs.", bill)
+
+else:
+    bill = (100 * 5) + (100 * 8) + ((units - 200) * 10)
+    print("Total Bill: Rs.", bill)
