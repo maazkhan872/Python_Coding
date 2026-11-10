@@ -148,3 +148,73 @@ else:
     print("Invalid Units")
 
 # Problem 13
+age = int(input("Enter your age: "))
+income = int(input("Enter your monthly income: "))
+
+if age >= 21 and income >= 50000:
+    print("You are eligible for the loan")
+else:
+    print("You are not eligible for the loan")
+
+# Problem 14
+amount = float(input("Enter total shopping amount: "))
+
+if amount < 2000 and amount >= 0:
+    discount = 0
+
+elif amount < 5000:
+    discount = amount * 0.05
+
+elif amount < 10000:
+    discount = amount * 0.10
+
+else:
+    discount = amount * 0.20
+
+final_amount = amount - discount
+
+print("Original Amount: Rs.", amount)
+print("Discount: Rs.", discount)
+print("Final Amount: Rs.", final_amount)
+
+# Problem 15
+gb = float(input("Enter internet usage in GB: "))
+
+if gb < 5 and gb >= 0:
+    print("Low Usage")
+
+elif gb <= 20:
+    print("Normal Usage")
+
+elif gb <= 50:
+    print("High Usage")
+
+elif gb > 50:
+    print("Very High Usage")
+
+else:
+    print("Invalid Usage")
+
+
+# Problem 16
+experience = float(input("Enter years of experience: "))
+salary = float(input("Enter monthly salary: "))
+
+if experience < 1 and experience >= 0:
+    bonus = 0
+
+elif experience <= 3:
+    bonus = salary * 0.05
+
+elif experience > 3 and salary < 100000:
+    bonus = salary * 0.10
+
+elif experience > 3 and salary >= 100000:
+    bonus = salary * 0.15
+
+else:
+    bonus = 0
+
+print("Monthly Salary: Rs.", salary)
+print("Bonus Amount: Rs.", bonus)
+print("Total Salary: Rs.", salary + bonus)
