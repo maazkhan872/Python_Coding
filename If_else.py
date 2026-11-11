@@ -129,3 +129,15 @@ if num % 5 == 0 and num % 11 == 0:
     print("Divisible by both 5 and 11")
 else:
     print("Not divisible by both")
+
+# Leap Year or Not
+year = int(input("Enter year: "))
+
+if year % 400 == 0:
+    print("Leap Year")
+elif year % 100 == 0:
+    print("Not a Leap Year")
+elif year % 4 == 0:
+    print("Leap Year")
+else:
+    print("Not a Leap Year")
