@@ -158,3 +158,19 @@ else:
     balance = balance - amount
     print("Withdrawal Successful")
     print("Remaining Balance:", balance)
+
+
+# Numbers problem
+num = int(input("Enter a number: "))
+
+if num > 100:
+    print("Large Number")
+
+elif num > 0:
+    print("Medium Number")
+
+elif num == 0:
+    print("Zero")
+
+else:
+    print("Negative Number")
