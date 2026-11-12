@@ -141,3 +141,20 @@ elif year % 4 == 0:
     print("Leap Year")
 else:
     print("Not a Leap Year")
+
+# ATM Withdrawal System
+balance = float(input("Enter account balance: "))
+amount = float(input("Enter withdrawal amount: "))
+
+if balance <= 0:
+    print("Insufficient Account Balance")
+elif amount <= 0:
+    print("Invalid Withdrawal Amount")
+elif amount > balance:
+    print("Insufficient Balance")
+elif amount % 500 != 0:
+    print("Amount must be a multiple of 500")
+else:
+    balance = balance - amount
+    print("Withdrawal Successful")
+    print("Remaining Balance:", balance)
