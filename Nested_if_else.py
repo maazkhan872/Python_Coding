@@ -25,3 +25,19 @@ if username == "admin":
 
 else:
     print("Invalid Username")
+
+# Age and Card Problem
+age = int(input("Enter your age: "))
+
+if age >= 18:
+
+    card = input("Do you have an admission card? ")
+
+    if card == "yes":
+        print("Admission Allowed")
+
+    else:
+        print("Admission Denied")
+
+else:
+    print("Age Requirement Not Met")
