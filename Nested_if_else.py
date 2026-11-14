@@ -41,3 +41,19 @@ if age >= 18:
 
 else:
     print("Age Requirement Not Met")
+
+# ATM Withdrawal problem
+balance = int(input("Enter your account balance: "))
+
+if balance > 0:
+
+    amount = int(input("Enter withdrawal amount: "))
+
+    if amount <= balance:
+        print("Withdrawal Successful")
+
+    else:
+        print("Insufficient Balance")
+
+else:
+    print("Invalid Account Balance")
