@@ -59,7 +59,7 @@ else:
     print("Invalid Account Balance")
 
 
-# Student Grade System
+# Student Grade problem
 marks = int(input("Enter your marks: "))
 
 if marks >= 50:
@@ -72,3 +72,20 @@ if marks >= 50:
 
 else:
     print("Failed")
+
+
+# Job Eligibility problem
+age = int(input("Enter your age: "))
+
+if age >= 18:
+
+    education = input("Enter your education: ")
+
+    if education == "Bachelor":
+        print("Eligible for Job")
+
+    else:
+        print("Education Requirement Not Met")
+
+else:
+    print("Age Requirement Not Met")
