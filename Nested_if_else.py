@@ -57,3 +57,18 @@ if balance > 0:
 
 else:
     print("Invalid Account Balance")
+
+
+# Student Grade System
+marks = int(input("Enter your marks: "))
+
+if marks >= 50:
+
+    if marks >= 80:
+        print("Grade A")
+
+    else:
+        print("Grade B")
+
+else:
+    print("Failed")
