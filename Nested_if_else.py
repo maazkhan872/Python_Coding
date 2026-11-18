@@ -62,17 +62,20 @@ else:
 # Student Grade problem
 marks = int(input("Enter your marks: "))
 
-if marks >= 50:
+if marks <= 50:
 
-    if marks >= 80:
+    if marks >= 60:
+
+        if marks >= 80:
         
-        if marks >= 90:
-            print("Grade A")
+            if marks >= 90:
+                print("Grade A")
+            else:
+                print("Grade B")
         else:
-            print("Grade B")
-
+            print("Grade C")
     else:
-        print("Grade C")
+        print("Grade D")
 
 else:
     print("Failed")
