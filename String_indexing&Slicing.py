@@ -23,3 +23,12 @@ word = "Python"
 print(word[0:3])  # Pyt
 print(word[2:5])  # tho
 print(word[1:4])  # yth
+
+# Sentence Analyzer
+sentence = input("Enter a sentence: ")
+
+print("Uppercase:", sentence.upper())
+print("Lowercase:", sentence.lower())
+print("Count of a:", sentence.lower().count("a"))
+print("Replace spaces:", sentence.replace(" ", "-"))
+print("First 5 characters:", sentence[:5])
