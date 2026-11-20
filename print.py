@@ -13,7 +13,7 @@ print("Python is a amazing language")
 # end=" | "
 print("Python", end=" | ")
 print("Java", end=" | ")
-print("Spring Boot")
+print("Spring Boot", end = " | ")
 print("Learn Artificial Intelligence")
 
 # \n - New Line Character
