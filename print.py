@@ -14,6 +14,7 @@ print("Python is a amazing language")
 print("Python", end=" | ")
 print("Java", end=" | ")
 print("Spring Boot")
+print("Learn Artificial Intelligence")
 
 # \n - New Line Character
 print("Hello\nBuddy")
