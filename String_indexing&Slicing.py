@@ -17,6 +17,7 @@ words[-3]
 # Slicing
 name = "Programming"
 print(name[0:4])
+print(name[0:5])
 
 word = "Python"
 
