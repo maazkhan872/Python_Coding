@@ -44,3 +44,12 @@ if len(password) >= 8 and has_digit and has_uppercase:
     print("Strong password")
 else:
     print("Weak password")
+
+# Python Indexing
+numbers = [10, 20, 30, 40, 50]
+
+print(numbers[0])   # 10
+print(numbers[1])   # 20
+print(numbers[2])   # 30
+print(numbers[-1])  # 50
+print(numbers[-2]) # 40
