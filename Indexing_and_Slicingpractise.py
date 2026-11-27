@@ -78,3 +78,18 @@ product3 = input("Enter third product: ")
 products.append(product3)
 print("Final product list:", products)
 
+# List Insert And Remove
+skills = ["Python", "HTML", "CSS", "JavaScript"]
+
+skills.insert(1, "Machine Learning")
+skills.remove("HTML")
+print("Updated skills:", skills)
+
+# Sort Students Marks
+marks = [78, 45, 92, 66, 88, 54]
+
+marks.sort()
+
+print("Ascending order:", marks)
+marks.sort(reverse=True)
+print("Descending order:", marks)
